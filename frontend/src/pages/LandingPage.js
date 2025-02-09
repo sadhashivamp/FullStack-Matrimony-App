@@ -5,6 +5,8 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import SuccessStories from "../components/SuccessStories";
 
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
+
 const LandingPage = () => {
     return (
         <Box sx={{ backgroundColor: "#eef2f7", minHeight: "100vh" }}>
