@@ -3,7 +3,7 @@ import { Box, TextField, Button, Stepper, Step, StepLabel, Typography, Container
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE_URL = "http://localhost:5000/api/matrimony-sadha-dev/profile";
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
 
 const steps = ["Basic Info", "Personal Details", "Education & Work", "Lifestyle", "Family", "Upload Photo"];
 
