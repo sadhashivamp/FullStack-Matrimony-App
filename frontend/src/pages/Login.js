@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import SnackbarComponent from "../components/SnackbarComponent ";
 
-const API_BASE_URL = "http://localhost:5000/api/matrimony-sadha-dev";
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
 
 const Login = () => {
     const [email, setEmail] = useState("");
