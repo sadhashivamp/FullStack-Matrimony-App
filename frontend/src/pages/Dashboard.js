@@ -10,6 +10,8 @@ import Testimonials from "../components/Testimonials";
 import RecommendedMatches from "../components/RecommendedMatches";
 import axios from "axios";
 
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
+
 const Dashboard = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
     const [userProfile, setUserProfile] = useState(null);
@@ -31,7 +33,7 @@ const Dashboard = () => {
         console.log('storedUser', storedUser?._id)
         setUserId(storedUser?._id)
         if (storedUser && storedUser._id) {
-            axios.get(`http://localhost:5000/api/matrimony-sadha-dev/profile/${storedUser._id}`)
+            axios.get(`{API_BASE_URL}/profile/${storedUser._id}`)
                 .then(response => setUserProfile(response.data))
                 .catch(error => console.error("Error fetching profile:", error));
         }
