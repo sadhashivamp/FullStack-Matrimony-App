@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import SuccessStories from "../components/SuccessStories";
 
-const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com/api/matrimony-sadha-dev";
 
 const LandingPage = () => {
     return (
