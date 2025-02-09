@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import "./SuccessStories.css";
 
-const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com/api/matrimony-sadha-dev";
+const API_BASE_URL = "https://fullstack-matrimony-app-backend.onrender.com";
 
 const SuccessStories = () => {
     const [successStories, setSuccessStories] = useState([]);
